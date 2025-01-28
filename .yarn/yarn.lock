@@ -3004,7 +3004,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"asn1@npm:^0.2.4":
+"asn1@npm:^0.2.6":
   version: 0.2.6
   resolution: "asn1@npm:0.2.6"
   dependencies:
@@ -6852,12 +6852,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nan@npm:^2.16.0":
-  version: 2.17.0
-  resolution: "nan@npm:2.17.0"
+"nan@npm:^2.20.0":
+  version: 2.22.0
+  resolution: "nan@npm:2.22.0"
   dependencies:
     node-gyp: latest
-  checksum: ec609aeaf7e68b76592a3ba96b372aa7f5df5b056c1e37410b0f1deefbab5a57a922061e2c5b369bae9c7c6b5e6eecf4ad2dac8833a1a7d3a751e0a7c7f849ed
+  checksum: 222e3a090e326c72f6782d948f44ee9b81cfb2161d5fe53216f04426a273fd094deee9dcc6813096dd2397689a2b10c1a92d3885d2e73fd2488a51547beb2929
   languageName: node
   linkType: hard
 
@@ -8799,37 +8799,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ssh2@npm:1.11.0":
-  version: 1.11.0
-  resolution: "ssh2@npm:1.11.0"
+"ssh2@npm:^1.12.0":
+  version: 1.16.0
+  resolution: "ssh2@npm:1.16.0"
   dependencies:
-    asn1: ^0.2.4
+    asn1: ^0.2.6
     bcrypt-pbkdf: ^1.0.2
-    cpu-features: ~0.0.4
-    nan: ^2.16.0
+    cpu-features: ~0.0.10
+    nan: ^2.20.0
   dependenciesMeta:
     cpu-features:
       optional: true
     nan:
       optional: true
-  checksum: e40cb9f171741a807c170dc555078aa8c49dc93dd36fc9c8be026fce1cfd31f0d37078d9b60a0f2cfb11d0e007ed5407376b72f8a0ef9f2cb89574632bbfb824
-  languageName: node
-  linkType: hard
-
-"ssh2@patch:ssh2@npm%3A1.11.0#./.yarn/patches/ssh2-npm-1.11.0-convertSha1.patch::locator=vscode-sshfs%40workspace%3A.":
-  version: 1.11.0
-  resolution: "ssh2@patch:ssh2@npm%3A1.11.0#./.yarn/patches/ssh2-npm-1.11.0-convertSha1.patch::version=1.11.0&hash=602c9b&locator=vscode-sshfs%40workspace%3A."
-  dependencies:
-    asn1: ^0.2.4
-    bcrypt-pbkdf: ^1.0.2
-    cpu-features: ~0.0.4
-    nan: ^2.16.0
-  dependenciesMeta:
-    cpu-features:
-      optional: true
-    nan:
-      optional: true
-  checksum: f33a0074637f195b261952cea4b8b02c15977375f59d985580c0c571ac6bac56cf523cd85ee99d1fdcdcce4e6547271c35b2450c0c14963f11ff88b0093d8b8e
+  checksum: c024c4a432aae2457852037f31c0d9bec323fb062ace3a31e4a6dd6c55842246c80e7d20ff93ffed22dde1e523250d8438bc2f7d4a1450cf4fa4887818176f0e
   languageName: node
   linkType: hard
 
@@ -9566,7 +9549,7 @@ __metadata:
     socks: ^2.2.0
     source-map: ^0.7.3
     source-map-support: ^0.5.19
-    ssh2: ^1.11.0
+    ssh2: ^1.12.0
     ts-loader: ^9.4.2
     typescript: ~5.0.2
     webpack: ^5.76.3
