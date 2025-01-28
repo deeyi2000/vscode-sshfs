@@ -2,8 +2,8 @@
     "name": "vscode-sshfs",
     "displayName": "SSH FS",
     "description": "File system, terminal and task provider using SSH",
-    "publisher": "Kelvin",
-    "version": "1.26.1",
+    "publisher": "Deeyi",
+    "version": "1.26.2",
     "engines": {
         "vscode": "^1.49.0"
     },
@@ -432,7 +432,7 @@
         "jsonc-parser": "^3.2.0",
         "semver": "^7.3.5",
         "socks": "^2.2.0",
-        "ssh2": "^1.11.0",
+        "ssh2": "^1.12.0",
         "winreg": "^1.2.4"
     },
     "resolutions": {
